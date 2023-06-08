@@ -1,4 +1,5 @@
 let magicNumber = Math.ceil((Math.random() * 10));
+var team = ["Afroz", "Bala", "Ravi", "Nowshath", "Sam", "Nihad","Roshan","Sohrab","Sufiyan"];
 console.log("Magic number is: " + magicNumber);
 playTheGame = function(guess) {
         let response = "Nope. It's not " + guess;
@@ -12,8 +13,7 @@ playTheGame = function(guess) {
                 console.log("New magic number is: " + magicNumber);
         }
         document.getElementById('results').innerHTML = response;
-}
-var team = ["Afroz", "Bala", "Ravi", "Nowshath", "Sam", "Nihad","Roshan","Sohrab"];
+};
 function generator() {
- document.getElementById("name").innerHTML = team[Math.floor(Math.random() * team.length)];;;
+ document.getElementById("name").innerHTML = team[Math.floor(Math.random() * team.length)];
 }
