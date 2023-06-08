@@ -13,3 +13,7 @@ playTheGame = function(guess) {
         }
         document.getElementById('results').innerHTML = response;
 }
+var team = ["Afroz", "Bala", "Ravi", "Nowshath", "Sam", "Nihad","Roshan","Sohrab"];
+function generator() {
+ document.getElementById("name").innerHTML = team[Math.floor(Math.random() * team.length)];;;
+}

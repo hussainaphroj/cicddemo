@@ -1,6 +1,7 @@
 body {padding:50; font-family:sans-serif;}
 button {background: linear-gradient(45deg, #6831e3, #f528cb);}
 h3 {color:navy}
+h2 {color:red}
 .display {
 background: silver;
 color:white;

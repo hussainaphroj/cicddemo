@@ -4,7 +4,10 @@
 <link rel=stylesheet href="style.css">
 </head>
 <body>
-<h3>Want to play a game?</h3>
+<h2>Click the "Generate" to find the person who wants to play a game</h2>
+<button onclick="generator()">Generate!</button>
+<h2 id="name"></h2>
+<h3>You have 3 chances to Guess the number</h3>
 <p>Pick a number between <b>1</b> and <b>10</b>? </p>
 <button onclick="playTheGame('1')"> 1 </button> &nbsp;
 <button onclick="playTheGame('2')"> 2 </button> &nbsp;
@@ -18,5 +21,6 @@
 <button onclick="playTheGame('10')"> 10 </button> &nbsp;
 <div id="results" class="display">Results appear here.</div>
 <script src="script.js"></script>
+</div>
 </body>
 </html>
