@@ -1,5 +1,5 @@
 let magicNumber = Math.ceil((Math.random() * 10));
-var team = ["Afroz", "Bala", "Ravi", "Nowshath", "Sam", "Nihad","Roshan","Sohrab","Sufiyan"];
+var team = ["Afroz", "Bala", "Ravi", "Nowshath", "Sam", "Nihad","Roshan","Sohrab","Sufiyan", "Prashanth","Ramesh","Renju"];
 console.log("Magic number is: " + magicNumber);
 playTheGame = function(guess) {
         let response = "Nope. It's not " + guess;
